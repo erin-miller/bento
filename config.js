@@ -50,6 +50,8 @@ const CONFIG = {
 	// ├┴┐│ │ │  │ │ ││││└─┐
 	// └─┘└─┘ ┴  ┴ └─┘┘└┘└─┘
 
+	// icons: https://lucide.dev/?search=mail
+
 	firstButtonsContainer: [
 		{
 			id: '1',
@@ -83,9 +85,9 @@ const CONFIG = {
 		},
 		{
 			id: '6',
-			name: 'github',
-			icon: 'github',
-			link: 'https://github.com/',
+			name: 'gitlab',
+			icon: 'gitlab',
+			link: 'https://gitlab.com/wne-csit-jackson/csit200/fall2022/section01/individual',
 		},
 	],
 
