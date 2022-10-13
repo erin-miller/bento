@@ -11,29 +11,29 @@ const CONFIG = {
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: 'John',
+	name: 'erin',
 	imageBackground: false,
 	openInNewTab: true,
 	twelveHourFormat: false,
 
 	// Greetings
-	greetingMorning: 'Good morning!',
-	greetingAfternoon: 'Good afternoon,',
-	greetingEvening: 'Good evening,',
-	greetingNight: 'Go to Sleep!',
+	greetingMorning: 'wakey wakey,',
+	greetingAfternoon: 'eat lunch,',
+	greetingEvening: 'eat dinner,',
+	greetingNight: 'its bed time',
 
 	// Layout
 	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
 
 	// Weather
-	weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
+	weatherKey: '67ed0afc4d5617237b55e48a50de304b', // Write here your API Key
 	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
-	weatherUnit: 'C', // 'F', 'C'
+	weatherUnit: 'F', // 'F', 'C'
 	language: 'en', // More languages in https://openweathermap.org/current#multi
 
 	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-	defaultLatitude: '37.775',
-	defaultLongitude: '-122.419',
+	defaultLatitude: '42.125290',
+	defaultLongitude: '-72.510730',
 
 	// Autochange
 	autoChangeTheme: true,
@@ -53,39 +53,39 @@ const CONFIG = {
 	firstButtonsContainer: [
 		{
 			id: '1',
-			name: 'Github',
-			icon: 'github',
-			link: 'https://github.com/',
+			name: 'kodiak',
+			icon: 'paperclip',
+			link: 'https://kodiak.wne.edu/d2l/home',
 		},
 		{
 			id: '2',
-			name: 'Mail',
-			icon: 'mail',
-			link: 'https://mail.protonmail.com/',
+			name: 'bank',
+			icon: 'piggy-bank',
+			link: 'https://www.numarkcu.org/',
 		},
 		{
 			id: '3',
-			name: 'Todoist',
-			icon: 'trello',
-			link: 'https://todoist.com',
+			name: 'weboasis',
+			icon: 'palmtree',
+			link: 'https://weboasis.app/',
 		},
 		{
 			id: '4',
-			name: 'Calendar',
+			name: 'calendar',
 			icon: 'calendar',
-			link: 'https://calendar.google.com/calendar/r',
+			link: 'https://calendar.google.com/calendar/u/1/r',
 		},
 		{
 			id: '5',
-			name: 'Reddit',
-			icon: 'glasses',
-			link: 'https://reddit.com',
+			name: 'letterboxd',
+			icon: 'clapperboard',
+			link: 'https://letterboxd.com/',
 		},
 		{
 			id: '6',
-			name: 'Odysee',
-			icon: 'youtube',
-			link: 'https://odysee.com/',
+			name: 'github',
+			icon: 'github',
+			link: 'https://github.com/',
 		},
 	],
 
@@ -135,24 +135,24 @@ const CONFIG = {
 	// First Links Container
 	firstlistsContainer: [
 		{
-			icon: 'music',
+			icon: 'tv',
 			id: '1',
 			links: [
 				{
-					name: 'Inspirational',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'youtube',
+					link: 'https://www.youtube.com/',
 				},
 				{
-					name: 'Classic',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'netflix',
+					link: 'https://www.netflix.com/browse',
 				},
 				{
-					name: 'Oldies',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'disney+',
+					link: 'https://www.disneyplus.com/home',
 				},
 				{
-					name: 'Rock',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'hbo',
+					link: 'https://play.hbomax.com/profile/select',
 				},
 			],
 		},
@@ -161,20 +161,20 @@ const CONFIG = {
 			id: '2',
 			links: [
 				{
-					name: 'Linkedin',
-					link: 'https://www.linkedin.com',
+					name: 'primary',
+					link: 'https://mail.google.com/mail/u/1/#inbox',
 				},
 				{
-					name: 'Dribbble',
-					link: 'https://www.dribbble.com',
+					name: 'secondary',
+					link: 'https://mail.google.com/mail/u/0/#inbox',
 				},
 				{
-					name: 'Trello',
-					link: 'https://www.trello.com',
+					name: 'outlook',
+					link: 'https://outlook.office.com/mail/',
 				},
 				{
-					name: 'Slack',
-					link: 'https://www.slack.com',
+					name: 'movie list',
+					link: 'https://letterboxd.com/dave/list/official-top-250-narrative-feature-films/page/1/',
 				},
 			],
 		},
