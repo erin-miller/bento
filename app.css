@@ -41,11 +41,11 @@
   /* Dark Colors  */
   --accent: #90A955; /* Hover color */
   --background: #19171a; /* Background color */
-  --cards: #132A13; /* Cards color */
+  --cards: #1f3f1fd0; /* Cards color */
 
   /* Fonts Color */
-  --fg: #31572C; /* Foreground color */
-  --sfg: #4F772D; /* Secondary Foreground color */
+  --fg: #4F772D; /* Foreground color */
+  --sfg: #31572C; /* Secondary Foreground color */
 
   /* Image background  */
   --imgcol: linear-gradient(
