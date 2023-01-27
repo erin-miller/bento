@@ -87,7 +87,7 @@ const CONFIG = {
 			id: '6',
 			name: 'gitlab',
 			icon: 'gitlab',
-			link: 'https://gitlab.com/wne-csit-jackson/csit200/fall2022/section01/individual',
+			link: 'https://gitlab.com/wne-csit-jackson/cs220/cs220-spring-2023/class/home/-/wikis/home',
 		},
 	],
 
