@@ -175,8 +175,8 @@ const CONFIG = {
 					link: 'https://outlook.office.com/mail/',
 				},
 				{
-					name: 'movie list',
-					link: 'https://letterboxd.com/dave/list/official-top-250-narrative-feature-films/page/1/',
+					name: 'letterboxd',
+					link: 'https://letterboxd.com/',
 				},
 			],
 		},
