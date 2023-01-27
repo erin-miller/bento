@@ -79,9 +79,9 @@ const CONFIG = {
 		},
 		{
 			id: '5',
-			name: 'letterboxd',
-			icon: 'clapperboard',
-			link: 'https://letterboxd.com/',
+			name: 'github',
+			icon: 'github',
+			link: 'https://github.com/erin-miller?tab=repositories',
 		},
 		{
 			id: '6',
